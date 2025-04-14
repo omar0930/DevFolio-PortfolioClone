@@ -1,0 +1,106 @@
+/* ========== PHONES ========== */
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .home-content h1 {
+    font-size: 28px;
+  }
+
+  .animated-text {
+    font-size: 16px;
+  }
+
+  .about-container,
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .service-card,
+  .portfolio-card,
+  .blog-card {
+    padding: 20px 15px;
+  }
+
+  .portfolio-grid,
+  .blog-grid,
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* ========== TABLETS ========== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .about-container,
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .portfolio-grid,
+  .blog-grid,
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-container {
+    padding: 0 20px;
+  }
+}
+
+/* ========== SMALL DESKTOPS ========== */
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-left,
+  .about-right {
+    flex: 1 1 100%;
+  }
+
+  .portfolio-grid,
+  .blog-grid,
+  .services-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .contact-container {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 15px;
+  }
+
+  .footer-bar {
+    font-size: 12px;
+  }
+}
